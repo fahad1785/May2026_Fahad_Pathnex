@@ -4,4 +4,42 @@ watched intro Roadmap for May2026_DevOps_batch - 2.45 hours
 installed visual studio code - 15 mins
 created Github Repo MAY2026_FAHAD_PATHNEX and created two folders /timings and 
 /coding practice   - 30 mins
+Rewatched today's session for doubt clearance - 1.5 hours
+
+Linux Commands that I Learnt Today
+
+ls / ls -la
+cd
+pwd
+touch
+mkdir
+cat
+cp
+vim
+find
+head
+tail
+ln
+
+(User & Permission Management:)
+
+useradd / adduser
+passwd
+su
+sudo
+usermod
+chown
+chmod
+umask
+
+(System & Archiving:)
+
+tar
+ssh
+ssh-keygen
+
+--------------------------------------------------------
+Tomorrows Tasks 
+----------------------------------------------------
+watch day2, day3, day5 video and perform practical 
 
