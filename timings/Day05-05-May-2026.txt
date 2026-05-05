@@ -1,0 +1,13 @@
+oToday's Tasks
+----------------------------------------------------
+- watched Linux_class_1 - 3 hours
+  practiced linux commands - 1 hours
+- watched today lecture again -2 hours 
+- created ec2 instance with terraform ran linux commands on it - 30 mins 
+
+Tomorrow's task 
+- create ec2 instance again and practice linux commands 
+
+
+
+
