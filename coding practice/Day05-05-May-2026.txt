@@ -4,10 +4,9 @@
 #create a key pair through gui and then put it in the .tf file
 # aws configure
 
-
-created Ec2 instance with terraform 
-
-Ec2_creation.tf
+#created Ec2 instance with terraform 
+#Ec2_creation.tf
+#------------------------------------------------------
 
 provider "aws" {
   region = "ap-south-1"
@@ -19,7 +18,7 @@ resource "aws_instance" "pathnex" {
   count                     = 1
   key_name                  = "yourkeynamethatu_created already in ec2"
   subnet_id                 = "subnet-051a19c2ff30b24fd"
-[[O  vpc_security_group_ids = ["sg-0e746d178167d5640"]
+  vpc_security_group_ids = ["sg-0e746d178167d5640"]
   tags  = {
     Name = "pathnex-ec2-1"
   }
