@@ -1,0 +1,30 @@
+#Install Terraform 
+#Make sure: You already configured AWS credentials using:
+#aws cli access keys ( you can create this in iam > user)
+#create a key pair through gui and then put it in the .tf file
+# aws configure
+
+
+created Ec2 instance with terraform 
+
+Ec2_creation.tf
+
+provider "aws" {
+  region = "ap-south-1"
+}
+
+resource "aws_instance" "pathnex" {
+  ami                       = "ami-0f559c3642608c138"
+  instance_type             = "t3.micro"
+  count                     = 1
+  key_name                  = "yourkeynamethatu_created already in ec2"
+  subnet_id                 = "subnet-051a19c2ff30b24fd"
+[[O  vpc_security_group_ids = ["sg-0e746d178167d5640"]
+  tags  = {
+    Name = "pathnex-ec2-1"
+  }
+}
+
+output "ec2_public_ips" {
+  value = aws_instance.pathnex[*].public_ip
+}
