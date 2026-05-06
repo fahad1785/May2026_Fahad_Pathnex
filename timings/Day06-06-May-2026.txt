@@ -1,0 +1,18 @@
+# What I did today 
+
+-attended morning session on git& Github - 3.45 hours 
+-created ec2 intance and performed github commands - 2.30 mins 
+-Prepared interview questions - 1 hour
+-attended evening sessions and shared tasks that i did - 1.30 min 
+
+-----------------------------------------
+# Tomorrow's tasks 
+
+-delete branch from github repo and from local (standard approach:)
+practice writng code from 
+"DevOps_Hands_On_Practice_L1"  (1 hrs)
+-attend morning session - 1-2 hrs
+-practice morning session - 2 hrs 
+- understand again git commands and other aspects - 1 hour
+
+
