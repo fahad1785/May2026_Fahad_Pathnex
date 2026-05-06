@@ -1,0 +1,12 @@
+#Learnt about Git 
+1. git init 
+2. git add filename or 
+   git add . (to add all files from working directory to staging area)
+3. git commit -m "any msg to understand about the changes"
+4. git push origin main 
+
+But while running push command I faced authentication error
+
+created Access keys from the developer settings 
+
+while prompted 
