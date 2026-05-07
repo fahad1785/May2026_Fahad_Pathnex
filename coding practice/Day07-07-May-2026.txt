@@ -1,0 +1,30 @@
+What I did today 
+# Jenkins Pipeline Parameterized 
+# Create Parameterized builds in Jenkins 
+
+Pipeline{agent any parameters{string(name:'ENVIRONMENT',defaultValue:'dev',
+description:'Deployment Environment')} environment {INSTITUTE_NAME = "Pathnex"} stages{stage('Checkout') {steps{sh'echo "Deploying to $ENVIRONMENT BY $INSTITUTE_NAME"'}}}}
+-------------------------------------------------------------------------------------
+#GitLab CI - Parameterized via Variables 
+# use variables to parameterize Gitlab jobs
+
+stages:
+  deploy 
+
+variables: INSTITUTE_NAME: "pathnex" ENVIRONMENT: "dev"
+
+deploy:stage:deploy image:alpine:latest script: echo "Deploying to $ENVIRONMENT by $INSTITUTE_NAME"
+
+-----------------------------------------------------------------------
+
+#TOMORROW'S TASKS 
+#practice coding from DevOps_Hands_On_Practice_L1/week2/Day08
+
+# Ansible - Install Packages Using Variables 
+# Terraform — Create VPC + Subnet
+# Kubernetes — Add Liveness & Readiness Probes
+# Shell Script — Loop Through List
+
+# Conditional Stages
+# Jenkins Pipeline — Conditional Execution
+# GitLab CI — Conditional Jobs
