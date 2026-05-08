@@ -1,0 +1,83 @@
+
+## What I did Today 
+--Coding practice [Variables, VPC, Probes, Loops]
+-----------------------------------------------------
+
+01 Ansible — Install Packages Using Variables
+
+- name: Install Packages for Pathnex using Variables
+  hosts: all
+  become: yes
+
+  vars:
+     Pathnex_packages:
+         - tree
+         - unzip
+         - vim 
+
+  tasks:
+    - name: Install required packages
+      package:
+         name: "{{ Pathnex_packages}}"
+         state: present 
+
+------------------------------------------------------
+
+#02 Terraform - Create VPC + Subnet
+
+provider "aws" {
+  region = "us-east-1"
+}
+
+resource "aws_vpc" "PathnexVPC" {
+  cidr_block = "10.10.0.0/16"
+
+  tags = {
+    Name = "Pathnex-VPC"
+  }
+}
+
+resource "aws_subnet" "pathnexSubnet" {
+  vpc_id                  = aws_vpc.PathnexVPC.id
+  cidr_block              = "10.10.1.0/24"
+  map_public_ip_on_launch = true
+
+  tags = {
+    Name = "Pathnex-Subnet"
+  }
+}
+
+-------------------------------------------
+03 Kubernetes - Liveness & Readiness Probes 
+
+apiVersion: v1
+kind: Pod
+
+metadata:
+  name: pathnex-probe-pod
+
+spec:
+  containers:
+    - name: web
+      image: nginx
+
+      livenessProbe:
+        httpGet:
+          path: /
+          port: 80
+        initialDelaySeconds: 5
+
+      readinessProbe:
+        httpGet:
+          path: /
+          port: 80
+        initialDelaySeconds: 3
+
+-------------------------------------------------------
+04  Shell Script — Loop Through List
+
+#!bin/bash
+for item in Pathnex Devops Training; do echo "item: $item"; done
+
+---------------------------------------------------------------------
+ 
