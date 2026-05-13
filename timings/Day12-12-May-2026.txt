@@ -1,0 +1,19 @@
+# What I did Today 
+--------------------------------
+- Attended morning session - 3 hrs 
+- rewatched kuberntes video - 1.5 hrs 
+- practiced for evening session - 1 hr 
+- attended evening session - 1.5 hrs
+- practiced coding Day12- 2 hrs 
+
+------------------------------------------------
+# What I will do Tomorrow
+
+- create EKS cluster 
+- create Introduction Script
+- ask questions for Kubernetes like 
+- how many clusters I have managed?
+- what version u have worked upon?
+- how did u optimized kubernets cluster?
+- what was ur team size?
+- attend evening session
