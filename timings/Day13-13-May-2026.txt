@@ -1,0 +1,16 @@
+What I did Today 
+--------------------------------
+- Attended morning session - 3 hrs 
+- created EKS cluster on AWS  - 2 hrs 
+- practiced for evening session - 1 hr 
+- attended evening session - 30 mins 
+- practiced coding Day12, Day13 - 3 hrs 
+
+------------------------------------------------
+What I will do tomorrow
+
+- Attend morning session on Kubernetes 
+- record intro video and send 
+- push Day13 code to Github Repo and raise pull request 
+- rewatched Kubernetes class 01
+
