@@ -1,0 +1,15 @@
+# What I did Today
+--------------------------------------------------------
+- Attended morning session - 3 hrs 
+- practiced coding - 1.5 hrs 
+- created EKS cluster - 2 hrs 
+- researched on homework - 2 hrs
+- practiced communication - 30 mins 
+
+--------------------------------------------------------------
+Task for Tomorrow 
+- attend morning session 
+- recall each topic that I learnt on K8's 
+- practice coding 
+- read pathnex notes 
+-attend evening session.
