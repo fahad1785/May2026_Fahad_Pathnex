@@ -1,0 +1,13 @@
+## What I did Today 
+---------------------------------------------------------
+- watched April's Helm session - 2.45 mins
+- practiced kubernetes -1 hr
+- revised about helm - 1 hr 
+- practiced coding - 1.5 hrs 
+
+-----------------------------------------------------------
+Tasks for Tomorrow
+- attend morning session 
+- practice coding 
+- handson practice for Helm 
+- send Introduction video 
