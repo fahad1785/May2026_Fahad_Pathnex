@@ -1,0 +1,16 @@
+## What I did Today 
+---------------------------------------------------------
+- Attended morning session - 4hrs 
+- practiced kubernetes - 2 hrs 
+- revised about cluster upgradation - 1 hr 
+- practiced coding - 1.5 hrs
+- prepared for evening session - 1 hr 
+- attended evening session - 45 mins
+
+-----------------------------------------------------------
+Tasks for Tomorrow
+- attend morning session 
+- practice coding 
+- handson practice for Kubernetes upgradation 
+- send Introduction video 
+
