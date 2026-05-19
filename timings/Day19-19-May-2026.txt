@@ -1,0 +1,15 @@
+## What I did Today 
+---------------------------------------------------------
+- Attended morning session - 3.45 min 
+- practiced Helm - 1 hr 
+- revised about cluster upgradation  and Helm - 2 hrs 
+- practiced coding - 1.5 hrs
+- prepared for evening session - 1 hr 
+- attended evening session - 45 mins
+
+-----------------------------------------------------------
+Tasks for Tomorrow
+- attend morning session 
+- practice coding 
+- handson practice for Helm Charts
+- send Introduction video 
