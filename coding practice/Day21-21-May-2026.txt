@@ -1,0 +1,148 @@
+## Day 21 -- SPEED TYPING (LEVEL 2)
+-----------------------------------------------------------------------
+
+Ansible Playbook
+---
+- name: Install and start nginx
+  host: all
+  become: yes
+
+  tasks: 
+    - name: Install nginx
+      apt:
+        name: nginx 
+        state: present
+        update_cache: yes
+
+    - name: start and enable nginx 
+      service:
+        name: nginx
+        state: started
+        enabled:  yes
+
+---------------------------------------------------------------------------
+## Terraform main.tf
+
+provider "aws" {
+  region = "us-east-1"
+}
+
+resource "aws_instance" "web" {
+  ami           = "ami-0c02fb55956c7d316"
+  instance_type = "t2.micro"
+
+  tags = {
+    Name  = "Pathnex-EC2"
+    Owner = "PathnexStudent"
+  }
+}
+
+-----------------------------------------------------
+## Kubernetes Deployment Manifest
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-Deployment
+
+spec: 
+  replicas: 3
+   
+  selector:
+    matchLabels:
+      app: nginx
+
+  template: 
+    metadata
+      labels:
+        app: nginx
+      
+    spec: 
+      containers:
+        - name: nginx
+          image: nginx
+          ports:
+            - containerPort: 80
+
+--------------------------------------------------------------------------------
+## Bash Script 
+
+#!/bin/bash
+echo "current Date:" 
+Date
+echo "System Uptime:" 
+Uptime
+
+echo "Disk Usage:"
+df -h
+
+----------------------------------------------------------------------------------
+## Multi-Environment Pipeline 
+## Jenkins Pipeline -- Deploy to Multiple Environments
+## define multiple environment deployments in one pipeline.
+
+pipeline {
+    agent any
+
+    environment {
+        INSTITUTE_NAME = "Pathnex"
+    }
+
+    stages {
+
+        stage('Deploy to Dev') {
+            steps {
+                sh 'echo "Deploying $INSTITUTE_NAME to Dev environment"'
+            }
+        }
+
+        stage('Deploy to Staging') {
+            steps {
+                input message: "Approve Staging Deployment?"
+
+                sh 'echo "Deploying $INSTITUTE_NAME to Staging environment"'
+            }
+        }
+
+        stage('Deploy to Prod') {
+            steps {
+                input message: "Approve Prod Deployment?"
+
+                sh 'echo "Deploying $INSTITUTE_NAME to Prod environment"'
+            }
+        }
+
+    }
+}
+
+------------------------------------------------------------
+## GitLab CI -- Multi-Environment
+## Define multiple environment deployments in GitLab CI
+
+stages:
+  - deploy
+
+variables:
+  INSTITUTE_NAME: "Pathnex"
+
+deploy-dev:
+  stage: deploy
+  image: alpine:latest
+  script:
+    - echo "Deploying $INSTITUTE_NAME to Dev environment"
+
+deploy-staging:
+  stage: deploy
+  image: alpine:latest
+  script:
+    - echo "Deploying $INSTITUTE_NAME to Staging environment"
+  when: manual
+
+deploy-prod:
+  stage: deploy
+  image: alpine:latest
+  script:
+    - echo "Deploying $INSTITUTE_NAME to Prod environment"
+  when: manual
+
+--------------------------------------------------------------------------------
