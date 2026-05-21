@@ -1,0 +1,105 @@
+## Day 20 — DEBUG DAY
+
+## Fixed Ansible file 
+---------------------------------------------------------------
+---
+- name: Install stuff
+  hosts: all
+  become: true
+
+  tasks:
+    - name: Install Apache HTTPD
+      yum:
+        name: httpd
+        state: present
+
+--------------------------------------------------------------
+## Fixed Terraform file 
+
+provider "aws" {
+  region = "us-east-1"
+}
+
+resource "aws_instance" "good" {
+  ami           = "ami-12345678"
+  instance_type = "c6i.8xlarge"
+}
+
+-----------------------------------------------
+## Fixed Deployment Manifest file 
+
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: broken-app
+
+spec:
+  replicas: 3
+
+  selector:
+    matchLabels:
+      app: broken
+
+  template:
+    metadata:
+      labels:
+        app: broken
+
+    spec:
+      containers:
+        - name: app
+          image: nginx
+          ports:
+            - containerPort: 80
+
+-----------------------------------------------------------------------------
+## Fixed Jenkins Pipeline 
+
+pipeline {
+    agent any
+
+    environment {
+        INSTITUTE_NAME = "Pathnex"
+    }
+
+    stages {
+        stage('Checkout') {
+            steps {
+                git url: 'https://github.com/Pathnex/sample-java-app.git'
+            }
+        }
+
+        stage('Use Secret') {
+            steps {
+                withCredentials([
+                    string(
+                        credentialsId: 'PATHNEX_API_KEY',
+                        variable: 'API_KEY'
+                    )
+                ]) {
+                    sh 'echo "Using secret $API_KEY for $INSTITUTE_NAME"'
+                }
+            }
+        }
+    }
+}
+
+---------------------------------------------------------------------------------------------
+## Fixed GitLab pipeline 
+
+stages:
+  - build
+
+variables:
+  INSTITUTE_NAME: "Pathnex"
+  API_KEY: "PLACEHOLDER_SECRET"
+
+build:
+  stage: build
+  image: alpine:latest
+
+  script:
+    - echo "Using secret $API_KEY for $INSTITUTE_NAME"
+
+----------------------------------------------------------------------------------------------------

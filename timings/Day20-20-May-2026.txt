@@ -1,0 +1,16 @@
+## What I did Today 
+---------------------------------------------------------
+- watched April's ArgoCD class - 2 hrs 
+- practiced ArgoCD - 2 hrs
+- revised about Helm and ArgoCD - 1 hr
+- practiced coding - 1.5 hrs
+- prepared for evening session - 1 hr 
+- attended evening session - 30 mins
+- sent Introduction video 
+
+-----------------------------------------------------------
+Tasks for Tomorrow
+- attend morning session 
+- practice coding 
+- handson practice for ArgoCD
+- send Introduction video 
