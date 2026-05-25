@@ -1,0 +1,14 @@
+## What I did Today 
+---------------------------------------------------------
+- created practiced Terraform and Ansible - 3hrs
+- revised kubernetes - 3 hrs 
+- revised about cluster upgradation - 1 hr 
+- practiced coding - 1.5 hrs
+
+-----------------------------------------------------------
+Tasks for Tomorrow
+- attend morning session 
+- practice coding 
+- Practice ArgoCD
+- send Introduction video 
+
