@@ -1,0 +1,16 @@
+## What I did Today 
+---------------------------------------------------------
+- Attended morning session - 4.30 hrs
+- practiced Terraform, Ansible and Jenkins - 3hrs
+- communication practice - 30 mins
+- interview questions practice - 1 hr
+- practiced coding - 1 hr
+- practiced for evening session - 1 hr
+- attended evening session - 45 mins
+
+-----------------------------------------------------------
+Tasks for Tomorrow
+- attend morning session 
+- practice coding 
+- Practice Jenkins 
+- send Introduction video 
