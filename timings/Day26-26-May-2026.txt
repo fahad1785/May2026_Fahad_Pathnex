@@ -1,0 +1,16 @@
+## What I did Today 
+---------------------------------------------------------
+- Attended morning session - 2 hrs
+- practiced Terraform, Datadog - 3hrs
+- communication practice - 30 mins
+- interview questions practice - 1 hr
+- practiced coding - 1 hr
+- practiced for evening session - 30 mins
+- attended evening session - 30 mins
+
+-----------------------------------------------------------
+## Tasks for Tomorrow
+- attend morning session 
+- practice coding 
+- Practice Datadog, prometheus and Grafana 
+- send Introduction video 
