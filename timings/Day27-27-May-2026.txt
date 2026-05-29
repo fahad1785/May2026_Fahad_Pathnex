@@ -1,0 +1,16 @@
+## What I did Today 
+---------------------------------------------------------
+- Attended morning session - 2 hrs
+- Rewatched previous session on ELK stack - 2 hrs
+- communication practice - 30 mins
+- interview questions practice - 1 hr
+- practiced coding - 1 hr
+- practiced for evening session - 30 mins
+- attended evening session - 30 mins
+
+-----------------------------------------------------------
+## Tasks for Tomorrow
+- attend morning session 
+- practice coding 
+- Practice ELK stack and datadog
+- send Introduction video 
