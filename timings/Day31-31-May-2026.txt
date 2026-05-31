@@ -1,0 +1,16 @@
+# What I did Today
+------------------------------------------
+- Attended morning session on Security tools - 2 hrs
+- practiced english conversation - 1 hr 
+- practiced Sonarqube installation on K8's - 1.30 hrs 
+- attended farewell session - 3 hrs 
+- prepared for evening session - 30 mins 
+- attended evening session - 45 mins 
+
+---------------------------------------------------
+# What I will do Tomorrow
+
+- practice L2 coding
+- attend evening session
+- prepare for mock interview 
+- revise kubernetes
