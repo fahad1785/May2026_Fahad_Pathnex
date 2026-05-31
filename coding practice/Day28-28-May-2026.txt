@@ -1,0 +1,94 @@
+## Day 28 — Debug Day
+------------------------------------------------
+
+## Ansible — Broken File 
+
+name Install nginx hosts all tasks:
+name missing yum: name nginx state present
+
+==============================================
+## Ansible - Fixed File with Correction
+
+---
+- name: Install nginx
+  hosts: all
+  become: yes
+
+  tasks:
+    - name: Install nginx package
+      yum:
+        name: nginx
+        state: present
+
+----------------------------------------------------------------------
+## Terraform — Broken
+resource "aws_s3" "BadBucket" { bucket = pathnex-bucket acl public-read }
+
+================================
+# Terraform Fixed File
+
+resource "aws_s3_bucket" "bad_bucket" {
+  bucket = "pathnex-bucket"
+  acl    = "public-read"
+}
+
+--------------------------------------------------------------------------
+# [Rollback Strategies]
+## Jenkins Pipeline — Automatic Rollback
+## how to rollback automatically if deployment fails.
+
+pipeline {
+    agent any
+
+    environment {
+        INSTITUTE_NAME = "Pathnex"
+        TEAM           = "DevOps"
+        ENV            = "prod"
+    }
+
+    stages {
+        stage('Deploy') {
+            steps {
+                script {
+                    try {
+                        sh 'echo "Deploying $INSTITUTE_NAME app in $ENV for $TEAM"'
+
+                        // Simulate deployment failure
+                        sh 'exit 1'
+
+                    } catch (Exception e) {
+
+                        echo "Deployment failed. Rolling back $INSTITUTE_NAME app in $ENV"
+
+                        // Simulated rollback
+                        sh 'echo "Rollback completed successfully"'
+                    }
+                }
+            }
+        }
+    }
+}
+
+------------------------------------------------------------------------------
+## GitLab CI — Corrected Rollback Strategy
+
+stages:
+  - deploy
+
+variables:
+  INSTITUTE_NAME: "Pathnex"
+  TEAM: "DevOps"
+  ENV: "prod"
+
+deploy:
+  stage: deploy
+  image: alpine:latest
+
+  script:
+    - echo "Deploying $INSTITUTE_NAME app in $ENV for $TEAM"
+    - exit 1
+
+  after_script:
+    - echo "Deployment failed. Rolling back $INSTITUTE_NAME app in $ENV"
+
+---------------------------------------------------------------------------
