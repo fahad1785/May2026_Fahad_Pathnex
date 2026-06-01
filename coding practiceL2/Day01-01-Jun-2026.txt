@@ -11,3 +11,5 @@ Ansible Task — Install Nginx on Pathnex Server
       yum:
         name: nginx
         state: present
+
+-------------------------------------------------------------------
