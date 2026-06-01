@@ -1,0 +1,12 @@
+# What I did Today 
+- rewatched Linux 4 videos - 5hrs 
+- practiced communication - 1 hr 
+- revised interview questions on Linux for mock - 1.30 hrs 
+- practiced coding from L2 repo 
+
+-----------------------------------------------------------------
+# What I will do tomorrow
+- create new AWS account and practice aws services 
+- practice interview questions on AWS 
+- practice coding and its indentation 
+- rewatch AWS videos 
