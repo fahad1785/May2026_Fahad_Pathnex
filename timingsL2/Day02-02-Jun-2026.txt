@@ -1,0 +1,14 @@
+# What I did Today 
+-----------------------------------------
+- revised aws topics - 2hrs
+- understood aws scenerio based questions - 1hr
+- practiced coding - 1hr
+- revised git topics - 1 hr 
+- practiced english communication
+----------------------------------------------------------------
+# what I will do tomorrow
+- practice git questions 
+- make repo for learning various git questions 
+- create various scenerio based questions for git 
+
+-----------------------------------------------------------------
