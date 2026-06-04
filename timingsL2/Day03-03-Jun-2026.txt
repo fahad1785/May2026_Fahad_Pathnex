@@ -1,0 +1,11 @@
+# What I did Today 
+- rewatched git videos - 2 hrs
+- practiced communication - 1 hr 
+- revised interview questions on git and linux - 1.30 hrs 
+- practiced coding from L2 repo 
+
+-----------------------------------------------------------------
+# What I will do tomorrow
+- practice interview questions on Docker  
+- practice coding and its indentation 
+- rewatch Docker videos
