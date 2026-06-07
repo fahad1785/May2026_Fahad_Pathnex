@@ -1,0 +1,12 @@
+# What I did Today 
+- prepared for mock interview -3 hrs
+- practiced communication - 1 hr 
+- revised interview questions Docker & Kuberntes - 2 hrs 
+- practiced coding from L2 repo 
+
+-----------------------------------------------------------------
+# What I will do tomorrow
+- practice interview questions Jenkins  
+- practice coding and its indentation 
+- rewatch Jenkins videos 
+- read pathnex notes 
