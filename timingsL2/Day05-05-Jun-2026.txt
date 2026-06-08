@@ -1,0 +1,12 @@
+# What I did Today 
+- rewatched Kubernetes videos - 3 hrs
+- practiced communication - 1 hr 
+- revised interview questions Docker & Kuberntes - 2 hrs 
+- practiced coding from L2 repo 
+- attended evening session - 2 hrs
+----------------------------------------------------------------
+# What I will do tomorrow
+- practice interview questions K8's   
+- practice coding and its indentation 
+- rewatch kubernetes
+- read pathnex notes 
