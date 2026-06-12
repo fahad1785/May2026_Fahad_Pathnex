@@ -1,0 +1,14 @@
+# What I did Today 
+- practice interview questions Ansible 
+- practice coding and its indentation 
+- rewatch Jenkins videos 
+- read pathnex notes 
+
+-----------------------------------------------------------------
+# What I will do tomorrow
+
+- Give mock interview on 13 Jun 2026 
+- prepare for realtime interviews 
+- practice coding from L2
+- create top 10 questions on each tool 
+- prepare scenerio based questions 
