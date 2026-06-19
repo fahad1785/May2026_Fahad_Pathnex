@@ -1,0 +1,13 @@
+# What I did today 
+---------------------------
+- Jenkins basics and fundamentals understanding - 4 hrs
+- learnt prometheus installation - 1 hr 
+- practiced coding from L2 repo - 30 mins
+- studied helm charts - 2 hr 
+
+# What I will do Tomorrow
+---------------------------
+- mark very important and mostly asked topics
+- get fundamentals cleared Ansible, SAST, DAST
+  and helm as well.
+- practiced coding.
