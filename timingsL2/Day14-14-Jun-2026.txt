@@ -1,0 +1,18 @@
+# what I did Today
+--------------------------------
+- practiced interview questions - 3hrs
+- practiced coding - 1 hr 
+- created notes - 2 hrs 
+- practiced interview with chatgpt - 1 hr 
+- practiced docker questions - 1hr
+
+----------------------------------------------------------
+# What I will do Tomorrow
+
+- practice interview questions on ArgoCD
+- practice coding 
+- revise all top interview questions for 
+aws, jenkins, ansible, terraform, k8's, prometheus, grafana, git,
+linux, Elk stack, datadog, argocd, gitlabCI
+- practice scenerio based questions 
+
