@@ -1,0 +1,13 @@
+# What I did Today
+-------------------------------------------------------------
+-  Practiced Security tools 
+- created small projects on Sonarqube and Trivy 
+- read pathnex notes for better understanding 
+- performed practical as well 
+
+------------------------------------------------------------
+# What I will do tomorrow 
+- Practice interview questions on Helm 
+- create Helm charts 
+- create a helm chart and perform practical lab
+- practice questions on helm 
