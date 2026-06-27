@@ -1,0 +1,14 @@
+# What I did Today
+----------------------------------------------------
+- Aim to give L1 interview maybe on 27th june or 28th June
+- Revised pathnex notes for AWS, Terraform and Argocd
+- Read important quest. and ans. given by Neeraj sir
+- practiced answering infront of mirror 
+
+----------------------------------------------------------------------------
+# What I will do tomorrow 
+- Practice Security tools 
+- create small projects to learn these tools 
+- read pathnex notes for better understanding 
+- perform practical as well 
+
