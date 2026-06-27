@@ -1,0 +1,14 @@
+# What I did Today
+----------------------------------------------------------------------------
+- Practiced interview questions on AWS - 2 hrs 
+- revised AWS resources again as per pathnex notes - 2 hrs
+- created projects thru Terraform - 2.5 hrs 
+- practiced interview questions from Pathnex - 1hr
+
+---------------------------------------------------------
+# What I will do Tomorrow
+
+- create a project for ELK stack 
+- check all its requirements for integrating with kubernetes cluster 
+- practice interview questions 
+- practice coding 
