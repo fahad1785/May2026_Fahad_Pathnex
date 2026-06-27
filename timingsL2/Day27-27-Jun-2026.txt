@@ -1,0 +1,13 @@
+# What I did Today
+------------------------------------------------------------------------
+- practiced interview questions for Jenkins - 2hrs 
+- created Jenkins project - 1hr
+- practice coding from L2 -2 hrs
+- praciced integrating Jenkins with Security tools - 3hrs
+
+---------------------------------------------------
+# What I will do Tomorrow 
+- practice intergrating Jenkins with remaining tools
+- practice coding 
+- create mini projects 
+- understand the clear concepts 
