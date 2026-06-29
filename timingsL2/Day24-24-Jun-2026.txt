@@ -1,0 +1,13 @@
+# What I did Today
+-------------------------------------------------------------
+- Practiced interview questions on Helm 
+- created Helm charts 
+- created helm chart and performed practical lab 
+- practiced interview questions on helm 
+
+------------------------------------------------------------
+# What I will do tomorrow 
+- Practice interview questions on AWS 
+- learn AWS resources properly 
+- create projects thru Terraform 
+- practice interview questions from Pathnex
