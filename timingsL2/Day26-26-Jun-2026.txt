@@ -1,0 +1,16 @@
+# What I did Today
+------------------------------------------------------------------------
+- created a project for ELK stack  - 2 hrs 
+- checked all its requirements for integrating with kubernetes cluster - 30 mins
+- practiced interview questions - 2 hrs
+- practiced coding from L2 - 1hr
+- also practiced killerkoda labs - 2hrs
+
+---------------------------------------------------
+# What I will do Tomorrow 
+
+- practice interview questions for Jenkins 
+- create Jenkins project 
+- practice coding 
+- pracice integrating Jenkins with Security tools
+
