@@ -1,0 +1,13 @@
+# What I did Today
+------------------------------------------------------------------------
+- practice intergrating Jenkins with SonarQube, Trivy - 2hrs
+- practiced coding -1hr
+- practiced interview questions - 2 hrs 
+- understood and cleared the Security tools - 2 hrs
+
+---------------------------------------------------
+# What I will do Tomorrow 
+- practice Github Actions and GitLab CI/CD
+- practice coding 
+- created projects 
+- practice interview questions for the same
