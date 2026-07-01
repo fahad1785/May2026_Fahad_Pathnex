@@ -1,0 +1,12 @@
+# What I did Today
+------------------------------------------------------------------------
+- practice Github Actions and GitLab CI/CD - 2hrs
+- practice coding - 2hrs
+- created projects -1 hr
+- practice interview questions0 - 2 hrs 
+
+---------------------------------------------------
+# What I will do Tomorrow 
+- practice Day30 coding 
+- practice interview questions for L1
+- practice and create projects 
